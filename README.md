@@ -5,6 +5,20 @@
 ## The registration process
 <img src="/assets/Registration Pipeline.png">
 
+## Usage
+
+> Create and run a registration process that register a template(template_path) to a subject image(subject_image) and save the 
+transformation matrix in a folder(subject_folder) for future use.
+```python
+CoRegistrationProcessFactory.create_co_registration_process_with(template_path, subject_image, subject_folder).run()
+```
+> Apply the transformation matrix to every mask and save the results in the subject folder.
+```python
+ for mask in masks:
+    # Register the mask to the subject space using the transformation matrix
+    CoRegistrationProcessFactory.create_co_registration_process_with(mask, subject, subject_folder, transformation_matrix_path).run()
+```
+
 #### How to contribute ?
 - [X] Create a branch by feature and/or bug fix
 - [X] Get the code
