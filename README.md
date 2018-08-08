@@ -19,6 +19,8 @@ CoRegistrationProcessFactory.create_co_registration_process_with(template_path, 
     CoRegistrationProcessFactory.create_co_registration_process_with(mask, subject, subject_folder, transformation_matrix_path).run()
 ```
 
+## Contributing
+
 #### How to contribute ?
 - [X] Create a branch by feature and/or bug fix
 - [X] Get the code
