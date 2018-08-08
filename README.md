@@ -1,4 +1,4 @@
-#  <img src="/assets/flow-chart.png" width="60" vertical-align="bottom"> FZJ Model Selection
+#  <img src="/assets/flow-chart.png" width="60" vertical-align="bottom"> FZJ PET Registration Pipeline
 #### How to contribute ?
 - [X] Create a branch by feature and/or bug fix
 - [X] Get the code
